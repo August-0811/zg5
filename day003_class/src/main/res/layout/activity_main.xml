@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+   <Button
+       android:id="@+id/gz"
+       android:text="构造函数"
+       android:onClick="onClick"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       >
+   </Button>
+
+
+    <Button
+        android:id="@+id/mr"
+        android:text="默认参数的构造函数"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/bs"
+        android:text="伴生对象"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </Button>
+    <Button
+        android:id="@+id/jt"
+        android:text="静态属性"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </Button>
+
+ <Button
+     android:id="@+id/cx"
+     android:text="抽象类"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     >
+ </Button>
+
+ <Button
+     android:id="@+id/jk"
+     android:text="接口"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     >
+ </Button>
+
+
+    <Button
+        android:id="@+id/dl"
+        android:text="接口代理"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </Button>
+
+
+    <Button
+        android:id="@+id/qt"
+        android:text="嵌套类"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </Button>
+
+
+    <Button
+        android:id="@+id/nb"
+        android:text="内部类"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </Button>
+
+
+    <Button
+        android:id="@+id/jz"
+        android:text="枚举类"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </Button>
+
+
+
+
+
+</LinearLayout>

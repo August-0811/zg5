@@ -1,0 +1,2 @@
+include ':app', ':hanshu', ':zhuoye002', ':day003_class', ':week001_work', ':util_library', ':day005_zhuoye', ':day006_sqllist', ':sp', ':day006_work', ':mvp_library', ':mvptext'
+rootProject.name='My Application'

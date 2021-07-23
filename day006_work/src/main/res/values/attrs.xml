@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyToolBar">
+        <attr name="titlename"  format="string"/>
+        <attr name="titlesize" format="dimension"/>
+        <attr name="titlecolor" format="color"/>
+        <attr name="leftbg" format="reference"/>
+        <attr name="righttext" format="string"/>
+        <attr name="rightsize" format="dimension"/>
+        <attr name="rightcolor" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/day003_class" />
+            <option value="$PROJECT_DIR$/day005_zhuoye" />
+            <option value="$PROJECT_DIR$/day006_sqllist" />
+            <option value="$PROJECT_DIR$/day006_work" />
+            <option value="$PROJECT_DIR$/hanshu" />
+            <option value="$PROJECT_DIR$/mvp_library" />
+            <option value="$PROJECT_DIR$/mvptext" />
+            <option value="$PROJECT_DIR$/sp" />
+            <option value="$PROJECT_DIR$/util_library" />
+            <option value="$PROJECT_DIR$/week001_work" />
+            <option value="$PROJECT_DIR$/zhuoye002" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

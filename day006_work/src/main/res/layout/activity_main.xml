@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.test7_21.MyToobar
+        android:id="@+id/mytoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:leftbg="@drawable/wallhaven832el2"
+        app:rightcolor="#000"
+        app:rightsize="6sp"
+        app:righttext=""
+        app:titlecolor="#ffffff"
+        app:titlename="CustomBar"
+        app:titlesize="10sp"
+        >
+    </com.example.test7_21.MyToobar>
+
+
+    <com.example.day006_work.CustomFlowView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        >
+
+        <Button
+            android:text="笑傲江湖"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        </Button>
+
+        <Button
+            android:text="倚天屠龙记"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        </Button>
+
+        <Button
+            android:text="红楼梦"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        </Button>
+
+        <Button
+            android:text="疯狂JAVA讲义"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        </Button>
+
+
+        <Button
+            android:text="第一行代码"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        </Button>
+
+        <Button
+            android:text="安卓艺术鉴赏"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        </Button>
+
+
+    </com.example.day006_work.CustomFlowView>
+
+
+    <com.example.day006_work.CustomButton
+        android:id="@+id/btn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#CCCCCC"
+        >
+    </com.example.day006_work.CustomButton>
+
+
+</LinearLayout>
